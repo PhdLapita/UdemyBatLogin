@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A6601B1E1454EE0012A788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6601A1E1454EE0012A788 /* AppDelegate.swift */; };
+		09A6601D1E1454EE0012A788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6601C1E1454EE0012A788 /* ViewController.swift */; };
+		09A660201E1454EE0012A788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A6601E1E1454EE0012A788 /* Main.storyboard */; };
+		09A660231E1454EE0012A788 /* BatLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09A660211E1454EE0012A788 /* BatLogin.xcdatamodeld */; };
+		09A660251E1454EE0012A788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A660241E1454EE0012A788 /* Assets.xcassets */; };
+		09A660281E1454EE0012A788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A660261E1454EE0012A788 /* LaunchScreen.storyboard */; };
+		09A660331E1454EE0012A788 /* BatLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A660321E1454EE0012A788 /* BatLoginTests.swift */; };
+		09A6603E1E1454EE0012A788 /* BatLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6603D1E1454EE0012A788 /* BatLoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A6602F1E1454EE0012A788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A6600F1E1454EE0012A788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A660161E1454EE0012A788;
+			remoteInfo = BatLogin;
+		};
+		09A6603A1E1454EE0012A788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A6600F1E1454EE0012A788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A660161E1454EE0012A788;
+			remoteInfo = BatLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A660171E1454EE0012A788 /* BatLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A6601A1E1454EE0012A788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09A6601C1E1454EE0012A788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09A6601F1E1454EE0012A788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A660221E1454EE0012A788 /* BatLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BatLogin.xcdatamodel; sourceTree = "<group>"; };
+		09A660241E1454EE0012A788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A660271E1454EE0012A788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09A660291E1454EE0012A788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A6602E1E1454EE0012A788 /* BatLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A660321E1454EE0012A788 /* BatLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatLoginTests.swift; sourceTree = "<group>"; };
+		09A660341E1454EE0012A788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A660391E1454EE0012A788 /* BatLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A6603D1E1454EE0012A788 /* BatLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatLoginUITests.swift; sourceTree = "<group>"; };
+		09A6603F1E1454EE0012A788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A660141E1454EE0012A788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A6602B1E1454EE0012A788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A660361E1454EE0012A788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A6600E1E1454EE0012A788 = {
+			isa = PBXGroup;
+			children = (
+				09A660191E1454EE0012A788 /* BatLogin */,
+				09A660311E1454EE0012A788 /* BatLoginTests */,
+				09A6603C1E1454EE0012A788 /* BatLoginUITests */,
+				09A660181E1454EE0012A788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09A660181E1454EE0012A788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A660171E1454EE0012A788 /* BatLogin.app */,
+				09A6602E1E1454EE0012A788 /* BatLoginTests.xctest */,
+				09A660391E1454EE0012A788 /* BatLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09A660191E1454EE0012A788 /* BatLogin */ = {
+			isa = PBXGroup;
+			children = (
+				09A6601A1E1454EE0012A788 /* AppDelegate.swift */,
+				09A6601C1E1454EE0012A788 /* ViewController.swift */,
+				09A6601E1E1454EE0012A788 /* Main.storyboard */,
+				09A660241E1454EE0012A788 /* Assets.xcassets */,
+				09A660261E1454EE0012A788 /* LaunchScreen.storyboard */,
+				09A660291E1454EE0012A788 /* Info.plist */,
+				09A660211E1454EE0012A788 /* BatLogin.xcdatamodeld */,
+			);
+			path = BatLogin;
+			sourceTree = "<group>";
+		};
+		09A660311E1454EE0012A788 /* BatLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				09A660321E1454EE0012A788 /* BatLoginTests.swift */,
+				09A660341E1454EE0012A788 /* Info.plist */,
+			);
+			path = BatLoginTests;
+			sourceTree = "<group>";
+		};
+		09A6603C1E1454EE0012A788 /* BatLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09A6603D1E1454EE0012A788 /* BatLoginUITests.swift */,
+				09A6603F1E1454EE0012A788 /* Info.plist */,
+			);
+			path = BatLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09A660161E1454EE0012A788 /* BatLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A660421E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLogin" */;
+			buildPhases = (
+				09A660131E1454EE0012A788 /* Sources */,
+				09A660141E1454EE0012A788 /* Frameworks */,
+				09A660151E1454EE0012A788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatLogin;
+			productName = BatLogin;
+			productReference = 09A660171E1454EE0012A788 /* BatLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09A6602D1E1454EE0012A788 /* BatLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A660451E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLoginTests" */;
+			buildPhases = (
+				09A6602A1E1454EE0012A788 /* Sources */,
+				09A6602B1E1454EE0012A788 /* Frameworks */,
+				09A6602C1E1454EE0012A788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A660301E1454EE0012A788 /* PBXTargetDependency */,
+			);
+			name = BatLoginTests;
+			productName = BatLoginTests;
+			productReference = 09A6602E1E1454EE0012A788 /* BatLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09A660381E1454EE0012A788 /* BatLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A660481E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLoginUITests" */;
+			buildPhases = (
+				09A660351E1454EE0012A788 /* Sources */,
+				09A660361E1454EE0012A788 /* Frameworks */,
+				09A660371E1454EE0012A788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A6603B1E1454EE0012A788 /* PBXTargetDependency */,
+			);
+			name = BatLoginUITests;
+			productName = BatLoginUITests;
+			productReference = 09A660391E1454EE0012A788 /* BatLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09A6600F1E1454EE0012A788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BearCreekMining;
+				TargetAttributes = {
+					09A660161E1454EE0012A788 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MSY85QY2GC;
+						ProvisioningStyle = Automatic;
+					};
+					09A6602D1E1454EE0012A788 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MSY85QY2GC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09A660161E1454EE0012A788;
+					};
+					09A660381E1454EE0012A788 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MSY85QY2GC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09A660161E1454EE0012A788;
+					};
+				};
+			};
+			buildConfigurationList = 09A660121E1454EE0012A788 /* Build configuration list for PBXProject "BatLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09A6600E1E1454EE0012A788;
+			productRefGroup = 09A660181E1454EE0012A788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09A660161E1454EE0012A788 /* BatLogin */,
+				09A6602D1E1454EE0012A788 /* BatLoginTests */,
+				09A660381E1454EE0012A788 /* BatLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A660151E1454EE0012A788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A660281E1454EE0012A788 /* LaunchScreen.storyboard in Resources */,
+				09A660251E1454EE0012A788 /* Assets.xcassets in Resources */,
+				09A660201E1454EE0012A788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A6602C1E1454EE0012A788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A660371E1454EE0012A788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A660131E1454EE0012A788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A6601D1E1454EE0012A788 /* ViewController.swift in Sources */,
+				09A6601B1E1454EE0012A788 /* AppDelegate.swift in Sources */,
+				09A660231E1454EE0012A788 /* BatLogin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A6602A1E1454EE0012A788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A660331E1454EE0012A788 /* BatLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A660351E1454EE0012A788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A6603E1E1454EE0012A788 /* BatLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A660301E1454EE0012A788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A660161E1454EE0012A788 /* BatLogin */;
+			targetProxy = 09A6602F1E1454EE0012A788 /* PBXContainerItemProxy */;
+		};
+		09A6603B1E1454EE0012A788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A660161E1454EE0012A788 /* BatLogin */;
+			targetProxy = 09A6603A1E1454EE0012A788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09A6601E1E1454EE0012A788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A6601F1E1454EE0012A788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09A660261E1454EE0012A788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A660271E1454EE0012A788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09A660401E1454EE0012A788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09A660411E1454EE0012A788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A660431E1454EE0012A788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MSY85QY2GC;
+				INFOPLIST_FILE = BatLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.BatLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		09A660441E1454EE0012A788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MSY85QY2GC;
+				INFOPLIST_FILE = BatLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.BatLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		09A660461E1454EE0012A788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MSY85QY2GC;
+				INFOPLIST_FILE = BatLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.BatLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatLogin.app/BatLogin";
+			};
+			name = Debug;
+		};
+		09A660471E1454EE0012A788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MSY85QY2GC;
+				INFOPLIST_FILE = BatLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.BatLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatLogin.app/BatLogin";
+			};
+			name = Release;
+		};
+		09A660491E1454EE0012A788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MSY85QY2GC;
+				INFOPLIST_FILE = BatLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.BatLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BatLogin;
+			};
+			name = Debug;
+		};
+		09A6604A1E1454EE0012A788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MSY85QY2GC;
+				INFOPLIST_FILE = BatLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearcreekmining.BatLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BatLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A660121E1454EE0012A788 /* Build configuration list for PBXProject "BatLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A660401E1454EE0012A788 /* Debug */,
+				09A660411E1454EE0012A788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A660421E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A660431E1454EE0012A788 /* Debug */,
+				09A660441E1454EE0012A788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09A660451E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A660461E1454EE0012A788 /* Debug */,
+				09A660471E1454EE0012A788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09A660481E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A660491E1454EE0012A788 /* Debug */,
+				09A6604A1E1454EE0012A788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09A660211E1454EE0012A788 /* BatLogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09A660221E1454EE0012A788 /* BatLogin.xcdatamodel */,
+			);
+			currentVersion = 09A660221E1454EE0012A788 /* BatLogin.xcdatamodel */;
+			path = BatLogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09A6600F1E1454EE0012A788 /* Project object */;
+}
