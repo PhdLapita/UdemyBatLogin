@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095D31C71E156D15000CFADB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D31C61E156D15000CFADB /* LoginViewController.swift */; };
 		09A6601B1E1454EE0012A788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6601A1E1454EE0012A788 /* AppDelegate.swift */; };
 		09A6601D1E1454EE0012A788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6601C1E1454EE0012A788 /* ViewController.swift */; };
 		09A660201E1454EE0012A788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A6601E1E1454EE0012A788 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095D31C61E156D15000CFADB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		09A660171E1454EE0012A788 /* BatLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A6601A1E1454EE0012A788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09A6601C1E1454EE0012A788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				09A660261E1454EE0012A788 /* LaunchScreen.storyboard */,
 				09A660291E1454EE0012A788 /* Info.plist */,
 				09A660211E1454EE0012A788 /* BatLogin.xcdatamodeld */,
+				095D31C61E156D15000CFADB /* LoginViewController.swift */,
 			);
 			path = BatLogin;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095D31C71E156D15000CFADB /* LoginViewController.swift in Sources */,
 				09A6601D1E1454EE0012A788 /* ViewController.swift in Sources */,
 				09A6601B1E1454EE0012A788 /* AppDelegate.swift in Sources */,
 				09A660231E1454EE0012A788 /* BatLogin.xcdatamodeld in Sources */,
@@ -516,6 +520,7 @@
 				09A660441E1454EE0012A788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09A660451E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				09A660471E1454EE0012A788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09A660481E1454EE0012A788 /* Build configuration list for PBXNativeTarget "BatLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				09A6604A1E1454EE0012A788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
